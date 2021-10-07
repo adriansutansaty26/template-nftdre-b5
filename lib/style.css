@@ -1,0 +1,46 @@
+*:focus:not(a) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+#hero {
+  background-image: url("../img/bg-2.png");
+  background-size: cover;
+}
+
+.bg-dark {
+  background-color: #040107 !important;
+}
+.bg-glass {
+  background-color: #effbff33 !important;
+}
+
+.bg-glass-purple {
+  background-image: linear-gradient(25deg, #6e21bd, #bf4fd8);
+}
+.bg-purple {
+  background-image: linear-gradient(25deg, #6e21bd, #bf4fd8);
+}
+
+.text-purple {
+  background-image: linear-gradient(25deg, #e32bf5, #bf71e9, #9196dd, #45b3d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-purple-lightest {
+  background-image: linear-gradient(25deg, #6e21bd, #bf4fd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-rainbow {
+  background-image: linear-gradient(25deg, #00c5ea 10%, #dbda66, #e85e7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-shadow {
+  text-shadow: black 0.1em 0.1em 0.3em;
+}
